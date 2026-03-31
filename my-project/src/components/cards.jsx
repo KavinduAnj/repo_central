@@ -5,10 +5,11 @@ export function SimpleCard({
   buttonText = ""
 }) {
   return (
-    <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="card border-0 rounded-xl bg-base-100 w-96 shadow-sm">
       <figure>
         <img
           src={imageSrc}
+          className="border-0 rounded-t-xl"
           alt={title} />
       </figure>
       <div className="card-body m-5">
